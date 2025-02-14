@@ -665,8 +665,8 @@ ggplot(data_summary, aes(
     breaks = scales::breaks_width(5),
     limits = c(),
   ) +
-  scale_fill_manual(values = c("#9966CC", "#9966CC")) +
-  scale_colour_manual(values = c("#9966CC", "#9966CC")) +  
+  scale_fill_manual(values = c("#954535", "#6E260E")) +
+  scale_colour_manual(values = c("#954535", "#6E260E")) +  
   labs(
     x = "Treatment",
     title = "Fungal Root Colonization"
