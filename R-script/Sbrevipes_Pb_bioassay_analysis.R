@@ -7,7 +7,7 @@ library(tidyr)
 library(multcompView)
 
 # Load data
-Pbdata <- read.csv("~/Desktop/Branco Lab/Results/Suillus_Pb_Bioassays/Sbrevipes/Sbrevipes_Pb_bioassay_data.csv", header = TRUE)
+Pbdata <- read.csv("Sbrevipes_Pb_bioassay_data.csv", header = TRUE)
 Pbdata$Treatment <- as.character(Pbdata$Treatment)
 
 # "Template" to put data back into
